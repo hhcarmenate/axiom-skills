@@ -4,12 +4,13 @@ Complete skill guide for AI agents building with axiom-skills. Each skill teache
 
 ---
 
-## Framework Skills (8)
+## Framework Skills (9)
 
 | Skill | When to Use |
 |-------|------------|
 | [React](/skills/react/SKILL.md) | Building component-based UIs with React 19, hooks, and React Compiler patterns |
 | [Next.js](/skills/nextjs/SKILL.md) | Full-stack applications with App Router, server components, and server actions |
+| [Astro](/skills/astro/SKILL.md) | Content-first websites with islands architecture, selective hydration, and static-first rendering |
 | [Vue](/skills/vue/SKILL.md) | Reactive UIs with Vue 3 Composition API, script setup, and composables |
 | [Laravel](/skills/laravel/SKILL.md) | Server-side web apps with Eloquent ORM, migrations, and service layer |
 | [Python](/skills/python/SKILL.md) | Modern Python 3.12+ with type hints, async/await, and Pydantic validation |
@@ -19,11 +20,12 @@ Complete skill guide for AI agents building with axiom-skills. Each skill teache
 
 ---
 
-## Design System Skills (6)
+## Design System Skills (7)
 
 | Skill | When to Use |
 |-------|------------|
 | [UX Design](/skills/ux-design/SKILL.md) | User-centered design with accessibility (WCAG 2.1), responsive layouts, and design systems |
+| [Design Director](/skills/design-director/SKILL.md) | Visual direction, typography systems, and anti-generic workflows for distinct web design |
 | [Tailwind CSS](/skills/tailwindcss/SKILL.md) | Utility-first CSS styling with dark mode, responsive design, and custom configuration |
 | [Bootstrap](/skills/bootstrap/SKILL.md) | 12-column grid, pre-built components, and Sass theming for rapid prototyping |
 | [Material UI](/skills/material-ui/SKILL.md) | Material Design components in React with theming, sx prop, and dark mode |
@@ -67,6 +69,7 @@ Each SKILL.md file contains:
 ### Web Frameworks
 - [React](/skills/react/SKILL.md) — Client-side UI framework
 - [Next.js](/skills/nextjs/SKILL.md) — Full-stack React framework
+- [Astro](/skills/astro/SKILL.md) — Content-first web framework with islands architecture
 - [Vue](/skills/vue/SKILL.md) — Progressive JavaScript framework
 - [Laravel](/skills/laravel/SKILL.md) — PHP web framework
 
@@ -80,6 +83,7 @@ Each SKILL.md file contains:
 - [MySQL](/skills/mysql/SKILL.md) — Popular relational database
 
 ### Styling & UI
+- [Design Director](/skills/design-director/SKILL.md) — Art direction and visual-system selection before implementation
 - [UX Design](/skills/ux-design/SKILL.md) — Design fundamentals
 - [Tailwind CSS](/skills/tailwindcss/SKILL.md) — Utility-first CSS
 - [Bootstrap](/skills/bootstrap/SKILL.md) — Component framework
@@ -107,6 +111,12 @@ Each SKILL.md file contains:
 4. [Tailwind CSS](/skills/tailwindcss/SKILL.md) or [shadcn/ui](/skills/shadcn-ui/SKILL.md) — Design UI
 5. [Test Specialist](/skills/test-specialist/SKILL.md) — Test everything
 
+### "I'm building a content site or blog"
+1. [Astro](/skills/astro/SKILL.md) — Static-first pages, layouts, and content collections
+2. [TypeScript](/skills/typescript/SKILL.md) — Type schemas and component props
+3. [Tailwind CSS](/skills/tailwindcss/SKILL.md) or [daisyUI](/skills/daisyui/SKILL.md) — Style content and landing pages
+4. [UX Design](/skills/ux-design/SKILL.md) — Improve readability, hierarchy, and responsive layouts
+
 ### "I'm building a Laravel app"
 1. [Laravel](/skills/laravel/SKILL.md) — MVC + Eloquent
 2. [MySQL](/skills/mysql/SKILL.md) — Database design
@@ -114,9 +124,15 @@ Each SKILL.md file contains:
 4. [Test Specialist](/skills/test-specialist/SKILL.md) — Test suite
 
 ### "I'm designing a UI"
-1. [UX Design](/skills/ux-design/SKILL.md) — Research and principles
-2. [Tailwind CSS](/skills/tailwindcss/SKILL.md) or [Material UI](/skills/material-ui/SKILL.md) — Implement design
-3. [daisyUI](/skills/daisyui/SKILL.md) — Reusable components
+1. [Design Director](/skills/design-director/SKILL.md) — Choose visual direction and anti-generic constraints
+2. [UX Design](/skills/ux-design/SKILL.md) — Validate usability, accessibility, and responsive behavior
+3. [Tailwind CSS](/skills/tailwindcss/SKILL.md) or [Material UI](/skills/material-ui/SKILL.md) — Implement design
+4. [daisyUI](/skills/daisyui/SKILL.md) — Reusable components
+
+### "I want my website to feel more distinct"
+1. [Design Director](/skills/design-director/SKILL.md) — Generate multiple visual directions and choose one intentionally
+2. [UX Design](/skills/ux-design/SKILL.md) — Keep the chosen style usable and accessible
+3. [Tailwind CSS](/skills/tailwindcss/SKILL.md), [shadcn/ui](/skills/shadcn-ui/SKILL.md), or [Material UI](/skills/material-ui/SKILL.md) — Implement without falling back to defaults
 
 ### "I'm building an API"
 1. [Next.js](/skills/nextjs/SKILL.md) (Route Handlers) or [Python](/skills/python/SKILL.md) or [Laravel](/skills/laravel/SKILL.md)
@@ -131,6 +147,7 @@ Each SKILL.md file contains:
 - **React**: 19+
 - **Next.js**: 15 (App Router)
 - **Vue**: 3 (Composition API)
+- **Astro**: 5
 - **Laravel**: 11
 - **Python**: 3.12+
 - **TypeScript**: Latest (strict mode)
